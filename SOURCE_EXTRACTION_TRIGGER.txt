@@ -1,1 +1,0 @@
-Temporary trigger for extracting the application source ZIP. This file can be removed after extraction.
