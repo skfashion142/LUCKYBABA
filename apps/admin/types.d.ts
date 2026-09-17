@@ -1,0 +1,1 @@
+declare module 'react-native-qrcode-svg'; declare module 'react-native-webrtc'; declare module '@react-native-firebase/app'; declare module '@react-native-firebase/auth'; declare module '@react-native-google-signin/google-signin';

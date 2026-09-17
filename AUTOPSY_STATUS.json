@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-17",
+  "originalFileCount": 77,
+  "postAutopsyFileCount": 84,
+  "status": "AUTOPSY_HARDENED_STATICALLY_VERIFIED_NOT_LIVE_CERTIFIED",
+  "preflight": "PASS",
+  "typescriptTsxSyntax": {"files": 23, "syntaxErrors": 0},
+  "liveCertification": "SKIPPED_NO_API_URL",
+  "productionExternalValidation": false,
+  "dependencyLockfile": "NOT_GENERATED_NETWORK_RESOLUTION_UNAVAILABLE",
+  "projectFileCountExcludingAuditDeliverables": 82,
+  "newMigration": "backend/migrations/005_autopsy_hardening.sql",
+  "nativePaymentEvidence": "ADDED_SOURCE_IMPLEMENTATION_NOT_DEVICE_CERTIFIED"
+}

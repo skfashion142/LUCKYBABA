@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-09-17T11:58:46.342Z",
+  "status": "SKIPPED_NO_API_URL",
+  "checks": [],
+  "notes": [
+    "Set CERT_API_BASE_URL to a running deployment API and re-run to execute live /health and /ready smoke tests."
+  ]
+}

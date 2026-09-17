@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-17T11:59:50.194Z",
+  "status": "PASS_STATIC_CERTIFICATION",
+  "findings": [
+    "PASS final preflight",
+    "PASS backend/src/server.ts",
+    "PASS backend/schema.sql",
+    "PASS backend/migrations/004_notifications_tutorial_security.sql",
+    "PASS backend/migrations/005_autopsy_hardening.sql",
+    "PASS apps/customer/App.tsx",
+    "PASS apps/admin/App.tsx",
+    "PASS migrate runner syntax",
+    "PASS feature /v1/customer/notifications",
+    "PASS feature /v1/admin/notifications/broadcast",
+    "PASS feature /v1/admin/ai-campaign-settings",
+    "PASS feature /v1/admin/audit-logs",
+    "PASS feature pg_try_advisory_lock",
+    "PASS feature revoked_at",
+    "PASS feature DEVELOPER_EARLY_UPI_KEY",
+    "PASS no obvious secret literal in backend source"
+  ],
+  "failures": []
+}

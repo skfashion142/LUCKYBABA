@@ -1,0 +1,14 @@
+{
+  "name": "payment-evidence",
+  "version": "1.0.1",
+  "private": true,
+  "main": "src/index.ts",
+  "expo-module": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "expo-modules-core": "*"
+  }
+}

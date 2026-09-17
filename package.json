@@ -1,0 +1,28 @@
+{
+  "name": "commerce-pickup-platform",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/customer",
+    "apps/admin",
+    "packages/mobile-core",
+    "modules/payment-evidence"
+  ],
+  "scripts": {
+    "customer:start": "npm --workspace apps/customer run start",
+    "customer:android": "npm --workspace apps/customer run android",
+    "customer:ios": "npm --workspace apps/customer run ios",
+    "customer:export": "npm --workspace apps/customer run export",
+    "admin:start": "npm --workspace apps/admin run start",
+    "admin:android": "npm --workspace apps/admin run android",
+    "admin:ios": "npm --workspace apps/admin run ios",
+    "admin:export": "npm --workspace apps/admin run export",
+    "backend:migrate": "npm --prefix backend run migrate",
+    "backend:build": "npm --prefix backend run build",
+    "backend:test": "npm --prefix backend run test",
+    "final:certify": "node scripts/final-certification.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
